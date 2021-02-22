@@ -6,9 +6,9 @@ Pour travailler sur ce projet :
 - Créer une branche pour faire tout l'exam
 - À la fin de l'examen, vous **devez** envoyer un zip de votre code sur Moodle et vous **pouvez** faire une PR à destination du projet d'origine (afin de faciliter mes retours pour la correction)
 
-La durée prévue est d'environ 3h. Des points peuvent être perdus pour le retard du rendu :
-- 1 point si le rendu est fait après 18h
-- 2 point si le rendu est fait après 20h
+La durée prévue est d'environ 2h. Des points peuvent être perdus pour le retard du rendu :
+- 1 point si le rendu est fait après 15h
+- 2 point si le rendu est fait après 17h
 
 Liste des exercices
 0. Importer la base de données
@@ -17,8 +17,6 @@ Liste des exercices
 3. Exécution d'une requête directe (SELECT) (2 points)
 4. Exécution d'une requête préparée (INSERT) (3 points)
 5. Exécution d'une requête préparée (SELECT) (4 points)
-6. Mise à jour de la table de liaison (product_has_category) (3 points)
-7. Insertion de données dans plusieurs tables en parallèle (5 points)
 
 ## 0. Importer la base de données
 
