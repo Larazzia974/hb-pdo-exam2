@@ -1,7 +1,7 @@
 # PHP Data Object (PDO) - Exam
 
 Pour travailler sur ce projet : 
-- **créer un fork** du projet (sur la page [https://github.com/Dreeckan/hb-pdo-exam](https://github.com/Dreeckan/hb-pdo-exam), cliquer sur le bouton `fork`, en haut à droite de la page)
+- **créer un fork** du projet (sur la page [https://github.com/Dreeckan/hb-pdo-exam2](https://github.com/Dreeckan/hb-pdo-exam2), cliquer sur le bouton `fork`, en haut à droite de la page)
 - Cloner **votre** projet (commande `git clone` par exemple)
 - Créer une branche pour faire tout l'exam
 - À la fin de l'examen, vous **devez** envoyer un zip de votre code sur Moodle et vous **pouvez** faire une PR à destination du projet d'origine (afin de faciliter mes retours pour la correction)
