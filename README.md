@@ -13,10 +13,10 @@ La durée prévue est d'environ 2h. Des points peuvent être perdus pour le reta
 Liste des exercices
 0. Importer la base de données
 1. Se connecter et utiliser la base de données (2 points)
-2. Exécution d'une requête directe (INSERT) (2 points)
-3. Exécution d'une requête directe (SELECT) (2 points)
-4. Exécution d'une requête préparée (INSERT) (3 points)
-5. Exécution d'une requête préparée (SELECT) (4 points)
+2. Exécution d'une requête directe (INSERT) (4 points)
+3. Exécution d'une requête directe (SELECT) (3 points)
+4. Exécution d'une requête préparée (INSERT) (6 points)
+5. Exécution d'une requête préparée (SELECT) (5 points)
 
 ## 0. Importer la base de données
 
