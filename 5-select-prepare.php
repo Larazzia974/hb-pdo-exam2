@@ -3,6 +3,10 @@
 include 'includes/connect.php';
 
 $data = [];
+
+$req = $bdd->prepare('SELECT * FROM music');
+$req->execute(array($data['']));
+var_dump($data);
 ?>
 
 <table>
