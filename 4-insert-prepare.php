@@ -29,3 +29,10 @@ $data = [
         'year'     => 1762,
     ],
 ];
+
+$sql = 'SELECT * FROM composer';
+$reponses = $bdd->query($sql);
+
+$statement = $bdd->prepare($sql);
+$statement->execute($parameters);
+$results = $statement->fetchAll();
