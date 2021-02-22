@@ -3,6 +3,10 @@
 include 'includes/connect.php';
 
 $data = [];
+
+$sql = 'SELECT * FROM composer';
+$reponses = $bdd->query($sql);
+
 ?>
 
 <table>
@@ -13,12 +17,13 @@ $data = [];
         <th>Description</th>
         <th>Pays</th>
     </tr>
-    <?php foreach ($data as $composer) { ?>
+    <?php foreach ($reponses->fetchAll(PDO::FETCH_ASSOC) as $data) { ?>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><?php echo $data['name']; ?></td>
+            <td><?php echo $data['birth']; ?></td>
+            <td><?php echo $data['death']; ?></td>
+            <td><?php echo $data['description']; ?></td>
+            <td><?php echo $data['country']; ?></td>
         </tr>
     <?php } ?>
 </table>
