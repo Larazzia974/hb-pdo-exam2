@@ -8,11 +8,12 @@ $data = [];
 <table>
     <tr>
         <th>Nom</th>
+        <th>Année de naissance</th>
+        <th>Année de décès</th>
         <th>Description</th>
-        <th>Prix</th>
-        <th>En stock</th>
+        <th>Pays</th>
     </tr>
-    <?php foreach ($data as $beanie) { ?>
+    <?php foreach ($data as $composer) { ?>
         <tr>
             <td></td>
             <td></td>
