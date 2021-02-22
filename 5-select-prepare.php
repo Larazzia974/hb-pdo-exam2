@@ -7,16 +7,12 @@ $data = [];
 
 <table>
     <tr>
-        <th>Nom</th>
-        <th>Description</th>
-        <th>Prix</th>
-        <th>Catégories</th>
-        <th>En stock</th>
+        <th>Nom du morceau</th>
+        <th>Année de composition</th>
+        <th>Nom du compositeur</th>
     </tr>
-    <?php foreach ($data as $beanie) { ?>
+    <?php foreach ($data as $music) { ?>
         <tr>
-            <td></td>
-            <td></td>
             <td></td>
             <td></td>
             <td></td>

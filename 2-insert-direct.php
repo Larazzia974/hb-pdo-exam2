@@ -4,44 +4,23 @@ include 'includes/connect.php';
 
 $data = [
     [
-        'name'        => 'Bonnet - Oscar light grey',
-        'description' => "
-Voici un bonnet urbain par excellence, avec sa forme allongée moderne et sa matière très douce en coton biologique que vous apprécierez tout au long de l’année. Il est tricoté en Suède dans les ateliers de la marque traditionnelle Sätila.
-Matière: 100 % Coton Biologique
-
-    Reference : SAT01086
-    Genre : femme
-    Forme : long
-    Couleur : gris
-    Taille : 56",
-        'price'       => 31.43,
-        'stock'       => 1,
+        'name'        => 'Antonio Tozzi',
+        'birth'       => 1736,
+        'death'       => 1812,
+        'description' => 'Antonio Tozzi (né en 1736 à Bologne, en Émilie-Romagne, alors dans les États pontificaux, et mort le 13 janvier 1819 à Madrid) est un compositeur italien de la fin du XVIIIe et du début du XIXe siècle.',
+        'country'     => 'Italie',
     ],
     [
-        'name'        => 'Bonnet - Headsock in recycled yarn black',
-        'description' => "
-Affichez une allure originale avec ce sympathique bonnet long noir, qui tient bien en place grâce à ses côtes verticales. Il est composé d’un mélange très doux de fibres provenant en partie de bouteilles en plastique recyclées.
-Matière: 50 % Acrylique, 50 % Polyester
-
-    Reference : SEE01364
-    Genre : femme
-    Forme : long
-    Couleur : noir",
-        'price'       => 25.90,
-        'stock'       => 1,
+        'name'        => 'Vincenzo Manfredini',
+        'birth'       => 1737,
+        'death'       => 1799,
+        'description' => 'Vincenzo Manfredini (né le 22 octobre 1737 à Pistoia près de Florence et mort le 16 août 17992 à Saint-Pétersbourg) est un compositeur, théoricien de la musique et claveciniste italien du XVIIIe siècle, et enseigna par ailleurs le clavecin et le chant.',
+        'country'     => 'Italie',
     ],
     [
-        'name'        => 'Bonnet - Rada camel',
-        'description' => "
-Chez la marque suédoise Sätila, l’environnement et la qualité ne sont pas pris à la légère, notamment avec ce magnifique bonnet long tricoté en Suède avec 41 % de fibres recyclées, combinant la laine, la viscose et le cachemire pour un résultat doux et bien chaud.
-Matière: 32 % Laine, 32 % Polyamide, 30 % Viscose, 3 % Cashmere 3 % Autres fibres
-
-    Reference : SAT01083
-    Genre : femme
-    Forme : long
-    Couleur : beige
-    Taille : 56",
-        'price'       => 34.23,
-        'stock'       => 1,
+        'name'        => 'Joseph-François Garnier',
+        'birth'       => 1755 ,
+        'death'       => 1825,
+        'description' => 'Joseph-François Garnier, né le 18 juin 1755 à Lauris, Vaucluse, et mort le 31 mars 1825 à Neuilly-sur-Seine, est un hautboïste et compositeur français.',
     ],
 ];
