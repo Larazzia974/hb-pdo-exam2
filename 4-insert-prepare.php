@@ -1,7 +1,7 @@
 <?php
 
 include 'includes/connect.php';
-
+$ids = [];
 $data = [
     [
         'composer' => 'Joseph-François Garnier',
@@ -30,9 +30,21 @@ $data = [
     ],
 ];
 
-$sql = 'SELECT * FROM composer';
-$reponses = $bdd->query($sql);
 
-$statement = $bdd->prepare($sql);
-$statement->execute($parameters);
-$results = $statement->fetchAll();
+$bddMusic = "INSERT INTO music (name, year, composer_id) VALUES (:name, :year, :composer_id)";
+$stmt = $bdd->prepare($bddMusic);
+if ($stmt === false) {
+    exit("Erreur à de l'insertion de la donnée :");
+}
+foreach ($data as $music) {
+    $composerId = $music['composer'];
+    $bddComposer = "SELECT id FROM composer WHERE name LIKE '$composerId'";
+    $rep = $bdd->query($bddComposer);
+    $donnees = $rep->fetch();
+
+    echo $donnees['id'];
+    $stmt->bindParam(':name', $music['name'], PDO::PARAM_STR);
+    $stmt->bindParam(':year', $music['year'], PDO::PARAM_INT);
+    $stmt->bindParam(':composer_id', $donnees['id'], PDO::PARAM_INT);
+    $stmt->execute();
+}
