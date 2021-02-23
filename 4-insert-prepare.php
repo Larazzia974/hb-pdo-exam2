@@ -34,7 +34,7 @@ $data = [
 $bddMusic = "INSERT INTO music (name, year, composer_id) VALUES (:name, :year, :composer_id)";
 $stmt = $bdd->prepare($bddMusic);
 if ($stmt === false) {
-    exit("Erreur à de l'insertion de la donnée :");
+    exit("Erreur à de l'insertion de la donnée");
 }
 foreach ($data as $music) {
     $composerId = $music['composer'];
